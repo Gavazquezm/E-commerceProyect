@@ -1,0 +1,35 @@
+#navHeader{
+padding: .5rem 4rem !important;
+background-color: #fff8ee !important;
+}
+
+a.page-name{
+    font-size: 1.2rem;
+}
+a.page-name > i{    
+    color: #fdd502 !important;
+    font-size: 1.7rem;
+}
+
+button.btnBeauty{
+    color: #ff9f6c !important;
+    border-color:    #ff9f6c !important;
+}
+button.btnBeauty:hover {
+    color: #fff !important;
+    background-color:#ff9f6c !important;
+    border-color:    #ff9f6c !important;
+}
+section.banner-section{
+    background-image: url("https://bnsec.bluenile.com/bluenile/is/image/bluenile/JEW_032019_SHOT16_Bracelet_Stack_72789_72028_71548_72224V2_CROP_WHITE_v2?&rgn=2450,560,1500,1301&hei=400&wid=1440");
+    height: 55vh;    
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    height: 55vh; 
+    padding-left: 7%
+}
+h2.text-banner{  
+    max-width: 40% !important;
+}
