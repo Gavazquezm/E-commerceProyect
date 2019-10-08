@@ -36,10 +36,27 @@ h2.text-banner{
 h3.titleNovedades{
     color:#d19e66 !important;
 }
-
+div.card.border-dark{
+    overflow: hidden;
+}
 .imgSource{
     width: 80% !important;
     margin: auto !important;
     border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);    
+    vertical-align: middle;
+    max-width: 95%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+img.imgSource:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.footer-contain{
+    background:linear-gradient(to bottom,  
+    rgb(255,255,255),
+    rgb(255,248,238),
+    rgb(250, 235, 214));
 }
