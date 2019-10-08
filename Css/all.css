@@ -34,10 +34,12 @@ h2.text-banner{
     max-width: 40% !important;
 }
 h3.titleNovedades{
-    color:#d19e66;
+    color:#d19e66 !important;
 }
 
 .imgSource{
     width: 80% !important;
     margin: auto !important;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
 }
